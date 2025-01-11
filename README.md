@@ -1,50 +1,101 @@
-# Welcome to your Expo app 👋
+Here’s a sample README file for your Medi-Track React Native app, incorporating the provided images:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+# Medi-Track React Native App
 
-1. Install dependencies
+## Overview  
+Medi-Track is a simple and intuitive React Native application designed to help users manage their medications effectively. With an easy-to-use interface, the app allows users to add, edit, and view their medication schedules, set reminders, and track their medication history.
 
+---
+
+## Features  
+
+- **Add New Medications**:  
+  Users can input medicine names, dosage forms (tablet, capsules, drops, syrup), and dosage instructions.
+  
+- **Medication Schedule**:  
+  Set start and end dates, select time for taking medicine, and enable reminder notifications.
+
+- **User-Friendly Interface**:  
+  Modern, clean design with simple navigation for a smooth user experience.
+
+---
+
+## Screenshots  
+
+### 1. Add New Medication  
+![Add New Medication](./images/rn5.jpg)
+
+### 2. No Medication Setup  
+![No Medication Setup](./images/rn4.jpg)
+
+---
+
+## Installation  
+
+Follow the steps below to run Medi-Track on your local machine:
+
+1. **Install Dependencies**  
+   Run the following command to install all necessary dependencies:  
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Start the App**  
+   Start the development server using Expo:  
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run on Device or Simulator**  
+   - Use Expo Go to run the app on your device.  
+   - Alternatively, run it on an Android emulator or iOS simulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## File Structure  
 
-## Get a fresh project
+```
+Medi-Track/
+│
+├── app/  
+│   ├── components/        # Reusable components
+│   ├── screens/           # App screens (Home, Add Medication, Profile)
+│   ├── assets/            # Images and other static assets
+│   └── styles/            # Shared styles
+│
+├── package.json  
+└── App.js                 # Main entry point
+```
 
-When you're ready, run:
+---
 
+## Reset Project  
+
+To reset the app and start fresh, run:  
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Learn More  
 
-To learn more about developing your project with Expo, look at the following resources:
+Explore the following resources to learn more about React Native and Expo:  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [React Native Documentation](https://reactnative.dev/docs/getting-started)  
+- [Expo Documentation](https://docs.expo.dev/)  
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## Community  
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Join the vibrant Expo developer community:  
+
+- [Expo on GitHub](https://github.com/expo/expo)  
+- [Expo Discord Community](https://chat.expo.dev)  
+
+---
+
+Feel free to customize the README further as per your app's specific requirements. Let me know if you'd like additional modifications!
