@@ -24,11 +24,20 @@ Medi-Track is a simple and intuitive React Native application designed to help u
 
 ## Screenshots  
 
-### 1. Add New Medication  
-![Add New Medication](.assets/images/rn5.jpg)
+### 1. Start Screen  
+![ Start Screen](./assets/images/rn1.jpg)
 
-### 2. No Medication Setup  
-![No Medication Setup](./images/rn4.jpg)
+### 2. Sign Up Screen  
+![Sign Up Screen](./assets/images/rn2.jpg)
+
+### 3. Login Screen  
+![Login Screen](./assets/images/rn3.jpg)
+
+### 4. No Medication Setup
+![No Medication Setup](./assets/images/rn4.jpg)
+
+### 5. Add New Medication  
+![Add New Medication](./assets/images/rn5.jpg)
 
 ---
 
